@@ -51,7 +51,6 @@ with open(election_data_2, newline="") as csvfile:
 		print(str(key) + ": " + str(value) + " (" + str(pct) + ")")
 
 
-
 	# Find max count and declare to winner
 	winner = max(votes, key=votes.get)
 
